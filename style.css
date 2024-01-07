@@ -1,0 +1,44 @@
+/* common styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+}
+
+
+/* banner styles */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    margin-top: 50px;
+    width: 1320px;
+    height: 600px;
+    border-radius: 15px;
+    background-image: url('../resources/Banner Image.png');
+    box-shadow: 50px 80px 650px 130px #000000 inset;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 175px;
+    text-shadow: 1px 1px #000000;
+}
+
+.banner-description {
+    display: flex;
+    color: #f8f8f8;
+    width: 630px;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    margin: 20px 340px;
+    text-shadow: 1px 1px #000000;
+}

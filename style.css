@@ -14,7 +14,7 @@ header {
 }
 
 .banner {
-    margin-top: 50px;
+    margin-top: 30;
     width: 1320px;
     height: 600px;
     border-radius: 15px;
@@ -272,11 +272,15 @@ welcome {
     margin-top: 20px;
     display: flex;
     justify-content: center;
+
+
 }
+
 .holidaysale {
 
     text-align: center;
     margin-bottom: 50px;
+    height: 100vh;
 
 }
 
@@ -309,7 +313,7 @@ welcome {
 
 .holiday-sale-description {
     color: rgba(7, 2, 17, 0.60);
-    margin-left:180px;
+    margin-left: 180px;
     max-width: 1060px;
     text-align: center;
     font-family: Inter;
@@ -321,26 +325,72 @@ welcome {
 
 
 /* bonus part */
-.container{
+.container {
     position: relative;
     margin-left: 70px;
     margin-top: 50px;
 }
-.bonus-image2{
+
+.bonus-image2 {
     position: absolute;
     left: 930px;
 }
-.bonus-image4{
+
+.bonus-image4 {
     position: absolute;
-    left:780px;
+    left: 780px;
     margin-top: 80px;
 }
-.bonus-image1{
+
+.bonus-image1 {
     position: absolute;
-    left:40px;
-    top:430px;
+    left: 40px;
+    top: 430px;
 }
-.bonus-image3{
+
+.bonus-image3 {
     position: absolute;
     left: 70px;
+}
+
+/* gift section */
+.gift {
+ 
+    max-width : 1320px;
+    margin-top: 300px;
+    margin-left:120px;
+    margin-bottom: 100px;
+}
+.text-part{
+    display: block;
+}
+.gift-top {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+ .gift-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.gift-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    line-height: 32px;
+    margin-bottom: 45px;
+} 
+
+.picture-part{
+    max-width: fit-content;
+    display: flex;
+    gap :7px;
+    margin-bottom: 20px;
 }

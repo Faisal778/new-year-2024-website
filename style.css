@@ -97,6 +97,7 @@ header {
     width: 1320px;
     border-radius: 15px;
     box-shadow: 250px 0px 400px 50px inset;
+    display: flex;
 }
 
 .welcome-title {
@@ -126,4 +127,13 @@ header {
     font-weight: 700;
     margin-left: 160px;
     margin-top: 50px;
+}
+
+welcome{
+    display: flex;
+    
+}
+.image-2024{
+    margin-top:70px;
+    margin-right:100px;
 }

@@ -155,6 +155,7 @@ welcome {
     box-shadow: 0px 80px 100px 50px rgb(255, 224, 224) inset;
 }
 
+
 .event-description {
     margin-top: 120px;
     color: #070211;
@@ -182,4 +183,85 @@ welcome {
     border-radius: 10px;
     margin-top: 50px;
     margin-bottom: 100px;
+}
+
+/* coming soon section */
+.coming-soon {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.coming-soon-content {
+    display: flex;
+    justify-content: center;
+    max-width: 1320px;
+}
+
+.left-coming-soon {
+    max-width: 350px;
+    margin-right: 70px;
+}
+
+.left-text {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.left-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 15px;
+
+}
+
+.left-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+.middle-photo {
+    height: 360px;
+    width: 360px;
+    border: 15px solid rgb(255, 0, 0);
+    justify-content: center;
+    /* margin-top: 40px; */
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.middle-coming-soon {
+    background-color: rgb(255, 255, 255);
+    margin-right: 110px;
+}
+
+
+.year {
+
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.right-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
 }

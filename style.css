@@ -17,7 +17,7 @@ header {
     width: 1320px;
     height: 600px;
     border-radius: 15px;
-    background-image: url('../resources/Banner Image.png');
+    background-image: url('resources/Banner Image.png');
     box-shadow: 50px 80px 650px 130px #000000 inset;
 }
 
@@ -91,7 +91,8 @@ header {
 }
 
 .welcome-bg-img {
-    background-image: url('../resources/Vectorrr.png');
+    background-image: url('resources/Vectorrr.png');
+    
     height: 600px;
     width: 1320px;
     border-radius: 15px;

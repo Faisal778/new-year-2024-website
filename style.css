@@ -273,11 +273,10 @@ welcome {
     display: flex;
     justify-content: center;
 }
-
 .holidaysale {
 
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 
 }
 
@@ -290,6 +289,8 @@ welcome {
 }
 
 .holiday-sale {
+    display: flex;
+    justify-content: center;
     color: #010211;
     text-align: center;
     font-family: Merriweather;
@@ -308,10 +309,38 @@ welcome {
 
 .holiday-sale-description {
     color: rgba(7, 2, 17, 0.60);
+    margin-left:180px;
+    max-width: 1060px;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
 
+}
+
+
+/* bonus part */
+.container{
+    position: relative;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.bonus-image2{
+    position: absolute;
+    left: 930px;
+}
+.bonus-image4{
+    position: absolute;
+    left:780px;
+    margin-top: 80px;
+}
+.bonus-image1{
+    position: absolute;
+    left:40px;
+    top:430px;
+}
+.bonus-image3{
+    position: absolute;
+    left: 70px;
 }

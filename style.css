@@ -265,3 +265,53 @@ welcome {
     line-height: 32px;
     margin-bottom: 40px;
 }
+
+/* holiday sale section */
+.holidasale-section {
+    max-width: 1320px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.holidaysale {
+
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.holiday-top {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.holiday-sale {
+    color: #010211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.red-text-holiday {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sale-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+
+}

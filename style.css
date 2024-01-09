@@ -11,9 +11,11 @@
 header {
     display: flex;
     justify-content: center;
+    font-family: Merriweather;
 }
 
 .banner {
+    font-family: Merriweather;
     margin-top: 50px;
     width: 1320px;
     height: 600px;
@@ -23,15 +25,20 @@ header {
 }
 
 .banner-title {
+    font-family: Merriweather;
     color: #FFFFFF;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
     margin-top: 175px;
-    text-shadow: 1px 1px #000000;
+}
+
+.banner-title p{
+    font-family: Merriweather;
 }
 
 .banner-description {
+    font-family: Merriweather;
     display: flex;
     color: #f8f8f8;
     width: 630px;
@@ -41,7 +48,9 @@ header {
     font-weight: 900;
     line-height: 95px;
     margin: 20px 340px;
-    text-shadow: 1px 1px #000000;
+}
+.banner-description p {
+    font-family: Merriweather;
 }
 
 /* discount title section */
@@ -102,6 +111,7 @@ header {
 }
 
 .welcome-title {
+    font-family: Merriweather;
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
@@ -109,6 +119,9 @@ header {
     letter-spacing: 7.04px;
     margin-top: 125px;
     margin-left: 125px;
+
+    color: #FFF;
+
 }
 
 .welcome-description {
@@ -315,6 +328,7 @@ header {
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
+    margin-right: 20px;
 }
 
 .holiday-sale-description {
@@ -414,11 +428,11 @@ header {
 
 /* subscribe section */
 
-.subscribe-newsletter {
+.subscribe-newsletter-banner{
     display: flex;
     justify-content: center;
     margin: auto;
-
+    max-width: 1320px;
     background: rgba(255, 0, 0, 0.05);
     border-radius: 15px;
     margin-top: 140px;
@@ -539,7 +553,7 @@ hr {
     justify-content: space-between;
 }
 
-.copyright p {
+.copyright>p{
     color: white;
     display: flex;
     justify-content: space-between;
@@ -559,4 +573,13 @@ hr {
 
 .unsubscribe {
     margin-right: 140px;
+}
+
+.phone-img{
+    display:inline;
+    vertical-align: middle;
+}
+.website-img{
+    display: inline-block;
+    vertical-align: middle;
 }

@@ -33,7 +33,7 @@ header {
     margin-top: 175px;
 }
 
-.banner-title p{
+.banner-title p {
     font-family: Merriweather;
 }
 
@@ -49,6 +49,7 @@ header {
     line-height: 95px;
     margin: 20px 340px;
 }
+
 .banner-description p {
     font-family: Merriweather;
 }
@@ -143,6 +144,14 @@ header {
     margin-top: 50px;
 }
 
+.join-now-btn {
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+
+
 .welcome {
     display: flex;
 
@@ -192,7 +201,7 @@ header {
     font-size: 20px;
     font-weight: 700;
     background-color: #F00;
-    border: 0px;
+    border-color: red;
     border-radius: 10px;
     margin-top: 50px;
     margin-bottom: 100px;
@@ -349,7 +358,7 @@ header {
 }
 
 
-/* bonus part */
+/* Holiday sale picture part */
 .container {
     display: flex;
     justify-content: center;
@@ -379,7 +388,7 @@ header {
 
 .bonus-image3 {
     position: absolute;
-    margin-left: -600px; 
+    margin-left: -600px;
 }
 
 .gift {
@@ -430,7 +439,7 @@ header {
 
 /* subscribe section */
 
-.subscribe-newsletter-banner{
+.subscribe-newsletter-banner {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -485,6 +494,10 @@ header {
     padding-left: 30px;
 }
 
+.email-box {
+    border-color: white;
+}
+
 .subscribe-btn {
     color: #FFF;
     text-align: center;
@@ -496,9 +509,11 @@ header {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     margin-left: -200px;
-    border: none;
+    border-color: red;
     position: absolute;
 }
+
+/* Footer section */
 
 footer {
     background: #070211;
@@ -555,13 +570,11 @@ hr {
     justify-content: space-between;
 }
 
-.copyright p{
-    color: white;
+.copyright p {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 120px;
-
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -577,11 +590,12 @@ hr {
     margin-right: 140px;
 }
 
-.phone-img{
-    display:inline;
+.phone-img {
+    display: inline;
     vertical-align: middle;
 }
-.website-img{
+
+.website-img {
     display: inline-block;
     vertical-align: middle;
 }

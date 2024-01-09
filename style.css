@@ -478,7 +478,7 @@ welcome {
     margin-bottom: 120px;
 }
 
-section {
+.subscribe-newsletter {
     display: flex;
     justify-content: center;
     max-width: 1320px;

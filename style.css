@@ -459,7 +459,7 @@ header {
 
 .email-image {
     margin-top: 80px;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-bottom: 30px;
 }
 
@@ -558,8 +558,9 @@ hr {
 }
 
 .footer-icons {
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
-    margin-left: 600px;
     margin-bottom: 50px;
 }
 

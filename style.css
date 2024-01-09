@@ -343,6 +343,7 @@ header {
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-bottom: 50px;
 
 
 }
@@ -378,7 +379,7 @@ header {
 
 .bonus-image3 {
     position: absolute;
-    margin-left: -600px;
+    margin-left: -600px; 
 }
 
 .gift {
@@ -415,6 +416,7 @@ header {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     line-height: 32px;
+    margin-top: 5px;
     margin-bottom: 45px;
 }
 
@@ -477,7 +479,7 @@ header {
     border-radius: 50px;
     background: #FFF;
     border: none;
-    margin-left: 80px;
+    margin-left: 30px;
     position: relative;
     margin-bottom: 80px;
     padding-left: 30px;
@@ -553,7 +555,7 @@ hr {
     justify-content: space-between;
 }
 
-.copyright>p{
+.copyright p{
     color: white;
     display: flex;
     justify-content: space-between;

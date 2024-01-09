@@ -439,6 +439,11 @@ header {
 
 /* subscribe section */
 
+.subscribe{
+    display: block;
+    justify-content: center;
+}
+
 .subscribe-newsletter-banner {
     display: flex;
     justify-content: center;

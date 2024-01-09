@@ -536,3 +536,68 @@ section {
     border: none;
     position: absolute;
 }
+
+footer{
+    background: #070211;
+    
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+}
+.left-text-footer, .right-text-footer p{
+    color:#f8f8f8;
+    color: #FFF;
+font-family: Inter;
+font-weight: 500;
+line-height: 40px;
+}
+.left-text-footer{
+    margin-left: 140px;
+    margin-top: 120px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.right-text-footer{
+    margin-top: 120px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+hr{
+    width: 1320px;
+height: 1px;
+background: rgba(255, 255, 255, 0.15);
+margin-left: 140px;
+border:none;
+}
+.footer-icons{
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+.footer-icons img{
+    margin-right: 25px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 120px;
+
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+}
+.copyright-text{
+    margin-left: 140px;
+}
+.unsubscribe{
+    margin-right: 140px;
+}
